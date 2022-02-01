@@ -1,0 +1,11 @@
+<svg id="Short_Arrow" data-name="Short Arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="invisible_box" data-name="invisible box">
+    <rect id="Rectangle_151" data-name="Rectangle 151" width="18" height="18" fill="none"/>
+  </g>
+  <g id="icons_Q2" data-name="icons Q2" transform="translate(1.833 2.193)">
+    <g id="Group_407" data-name="Group 407">
+      <path id="Path_280" data-name="Path 280" d="M12.111,16.079a.77.77,0,0,0,.073-.99.7.7,0,0,0-1.1-.073L9.4,16.7V6.733a.733.733,0,0,0-1.466,0V16.7L6.247,15.016a.7.7,0,0,0-1.1.073.77.77,0,0,0,.073.99l2.932,2.9a.7.7,0,0,0,1.026,0Z" transform="translate(-5.001 -5.994)" fill="#525156"/>
+      <path id="Path_281" data-name="Path 281" d="M23.221,9.105a.77.77,0,0,0-.073.99.7.7,0,0,0,1.1.073l1.686-1.686v9.969a.733.733,0,1,0,1.466,0V8.482l1.686,1.686a.7.7,0,0,0,1.1-.073.77.77,0,0,0-.073-.99l-2.932-2.9a.7.7,0,0,0-1.026,0Z" transform="translate(-16.404 -5.985)" fill="#525156"/>
+    </g>
+  </g>
+</svg>

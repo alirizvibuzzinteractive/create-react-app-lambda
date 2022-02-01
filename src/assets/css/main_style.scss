@@ -1,0 +1,295 @@
+// ---------------STANDARD COLORS THAT ARE USE IN APP---------------
+$Secondary: #07807e;
+$Primary: #e95f4b;
+$lighGreen: #dfeded;
+$lightGray: #f4f4f4;
+$darkGray: #929196;
+$gray: #eaeaea;
+$darkBlack: #29282b;
+$black: #525156;
+$lightBlack: #29282b;
+$lightYellow: #fff2df;
+
+$white: #fff;
+
+:export {
+  primary: $Primary;
+  secondary: $Secondary;
+  lighGreen: $lighGreen;
+  lightGray: $lightGray;
+  darkGray: $darkGray;
+  gray: $gray;
+  black: $black;
+  darkBlack: $darkBlack;
+  lightBlack: $lightBlack;
+  lightYellow: $lightYellow;
+  white: $white;
+}
+
+// ---------------DEFINE CLASSES---------------
+html {
+  scroll-behavior: smooth;
+}
+.datebarSingle {
+  border-radius: 8px 8px 0px 0px;
+  background-color: $lightYellow;
+}
+.datebarStart {
+  border-radius: 8px 0px 0px 0px;
+  background-color: $lightYellow;
+}
+.datebarMid {
+  background-color: $lightYellow;
+}
+.datebarEnd {
+  border-radius: 0px 8px 0px 0px;
+  background-color: $lightYellow;
+}
+.centerAuto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centerX {
+  display: flex;
+  justify-content: center;
+}
+.centerY {
+  display: flex;
+  align-items: center;
+}
+.activeBg {
+  background-color: $lighGreen;
+}
+.pt-8 {
+  padding-top: 8px;
+}
+.d-flex {
+  display: flex;
+}
+.rounded {
+  border-radius: 5px;
+}
+.bgWhite {
+  background-color: $white;
+}
+.sidebar {
+  position: relative;
+  background-color: $lightGray;
+  width: 78px;
+  height: 100vh;
+  min-height: 500px;
+  z-index: 15;
+}
+.sidebar2 {
+  position: sticky;
+  left: 0;
+  background-color: $white;
+  width: 330px;
+  min-height: calc(100vh - 66px);
+  border-radius: 0px 5px 0px 0px;
+  z-index: 10;
+  margin-top: 14px;
+}
+.header {
+  text-align: start;
+  background-color: $white;
+  width: 100%;
+  height: 66px;
+  position: relative;
+}
+.headerBody {
+  padding-left: 78px;
+  height: 66px;
+  position: absolute;
+  width: calc(100% - 78px);
+}
+.sidebarBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.sidebarBtnBottom0 {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px 6px 0px 0px;
+  background-color: $white;
+}
+.sidebarBtnBottom1 {
+  width: 50px;
+  height: 50px;
+  background-color: $white;
+}
+.sidebarBtnBottom2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 0px 0px 6px 6px;
+  background-color: $white;
+}
+.sidebarBottom {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+}
+.body {
+  background-color: $white;
+  width: 100%;
+  margin-top: 66px;
+  min-height: calc(100vh - 66px);
+}
+.body_container {
+  overflow: scroll;
+  height: calc(100vh - 66px);
+  display: flex;
+}
+.MuiInput-underline::after {
+  border-bottom: 2px solid $Secondary !important;
+}
+.MuiInput-root::before {
+  border-bottom: none !important;
+}
+.sidebar2_toggle_btn {
+  background: $white;
+  position: absolute;
+  top: calc((100vh - 110px) / 2);
+  right: -24px;
+  padding: 10px 6px;
+  border-radius: 0px 5px 5px 0px;
+  z-index: 2;
+  box-shadow: 2px 0px 6px #00000012;
+  cursor: pointer;
+}
+.sidebar2_toggle_btn2 {
+  background: $white;
+  position: absolute;
+  top: calc((100vh - -22px) / 2);
+  left: 74px;
+  padding: 10px 6px;
+  border-radius: 0px 5px 5px 0px;
+  z-index: 1;
+  box-shadow: 2px 0px 6px #00000012;
+  cursor: pointer;
+}
+.sliderBox {
+  width: 283px;
+  height: 122px;
+  padding: 15px 0 0;
+  background-color: $white;
+}
+.sliderBox .profileImage {
+  width: 45px;
+  height: 45px;
+  margin: 0 8px 2px 0;
+}
+.sliderBox .profileName {
+  margin: 1px 0 0 8px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: $darkBlack;
+}
+.sliderBox .profileDesignation {
+  margin: 1px 50px 0 8px;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: $darkGray;
+}
+.sidebarContainer {
+  margin-top: 29px;
+}
+.sidebarStaticPart {
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 2px -8px 6px #00000012;
+  position: fixed;
+  width: 319px;
+  background: white;
+  top: 66px;
+  left: 75px;
+}
+.bodyBlock {
+  border: 1px solid $lighGreen;
+  display: inline-block;
+  width: 120px;
+  padding: 0 0 0;
+  background-color: #fff;
+  display: flex;
+}
+.bodyBlockHeight {
+  height: 154.94px !important;
+  padding: 5px;
+}
+.bodyWidth {
+  width: calc(100vw - 404px);
+}
+.bodyScheduleDateLine {
+  width: 132px;
+  height: 18px;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  display: inline-block;
+  font-size: 11px;
+  // margin-bottom: 0px!important;
+}
+.bodyScheduleDateLineBox {
+  padding: 6px 0px !important;
+}
+.monthWeek {
+  border-left: 2px solid $Primary;
+  padding-left: 3px;
+  margin-bottom: 10px;
+  color: $darkGray;
+  font-size: 12px !important;
+}
+.monthName {
+  padding-left: 3px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: $black;
+  font-size: 12px !important;
+}
+.holidayDot {
+  background: $Secondary;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.taskBlock {
+  border-radius: 5px;
+  margin-bottom: 2px;
+  padding: 3px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #07807e;
+  color: white;
+  font-size: 10px;
+  // resize:horizontal;
+}
+.stickyElement {
+  position: sticky;
+  top: 0;
+  margin-left: 5px;
+}
+.resizeable {
+
+}
+.css-xybj4j-MuiLinearProgress-bar2,.css-p53mz9-MuiLinearProgress-bar1{
+  background-color:$Primary!important;
+}
+.css-10jyip1-MuiLinearProgress-root{
+  background-color: #e95f4b69!important;
+}
